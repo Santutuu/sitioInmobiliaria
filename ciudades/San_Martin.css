@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    height: 68px;
+    width: 100%;
+    padding-left: 350px;
+    padding-top: 18px;
+    gap: 50px;
+   
+    background-color: rgb(153, 34, 143);
+    
+}
+    
+
+nav > a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+#logo {
+    width: 80px;
+    height: 75px;
+    
+    
+    
+}
+.marca {
+    display: flex;
+    transform: translate(-300px, -20px);
+    background-color: aliceblue;
+    height: 70px;
+}
+.marca p {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+    color: rgb(153, 34, 143);
+    
+    
+}
+
+#subt {
+    margin-bottom: 15px;
+}
+
+
+
+.descripcion {
+    width: 60%;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    
+}
+
+.imagen-cabania {
+    width: 70%;
+    height: 300px;
+    position:relative;
+    border-radius: 2%;
+   
+}
+.propiedad {
+    
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+section {
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.star {
+    width: 20px;
+    
+    
+}
+.starEmpty {
+    transform: translate(0,2px);
+    width: 23px;
+}
+
+.estrellas {
+    margin-right: 40px;
+
+}
+
+#user {
+    width: 35px;
+    margin-top: 10px;
+    
+}
+
+
+
+.patas {
+    background-color:  rgb(153, 34, 143, 0.8);
+    height: 250px;
+    margin-top: 200px;
+}
+
+.logos {
+    color: black;
+    display: flex;
+    
+
+}
+
+.icon {
+    margin-left: 20px;
+    
+}
+#lineafoot {
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+.contacto {
+    margin-top: 130px;
+    margin-left: 270px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contacto > p {
+    font-size: medium;
+    margin-right: 300px;
+    margin-top: 8px;
+}
+
+#logo_tel {
+    margin-left: 620px;
+}
+
+
+
+

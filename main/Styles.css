@@ -1,0 +1,192 @@
+
+
+
+body {
+    color: rgb(2, 0, 0);
+    background-color:whitesmoke; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section {
+     margin-bottom: 100px;
+     
+}
+
+.contenedor > section {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+.imagen-recomendada {
+    width: 100%;
+    height: 250px;
+    position:relative;
+    border-radius: 2%;
+    
+    
+}
+
+.lugares ::before {
+    
+   
+    background-color: rgb(96, 52, 146) 
+    opacity: 0;
+   
+}
+
+.imagen-recomendada:hover  {
+    filter: brightness(0.7);
+
+
+}
+
+
+
+.oculto {
+    position: absolute;
+    color: white;
+    margin-top: 10.5%;
+    margin-left: 3%;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+   
+}
+
+.imagen-recomendada:hover .oculto {
+    opacity: 1;
+    
+}
+
+
+
+.oculto span {
+    color: yellow;
+}
+
+
+
+.C_lugarX2{
+
+    display: flex;
+    justify-content: space-between;
+     position: relative;
+    margin-bottom: 8px;
+}
+
+.lugarX2 {
+    display: flex;
+    width: 100%;
+    
+}
+
+
+      
+.lugarX2:not(:last-child) {
+    margin-right: 20px;
+}
+    
+    
+
+
+.C_lugarX3 {
+    display: flex;
+    justify-content: space-between;
+  
+    
+    position: relative;
+    
+}
+
+.lugarX3 {
+    display: flex;
+    
+}
+
+.lugarX3:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+
+.lugares h3 {
+    
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 10%;
+}
+
+.lugares p {
+    position: absolute;
+    color: aliceblue;
+    margin-top: 230px;
+    background-color: rgb(153, 34, 143, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+#subti {
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: rgb(153, 34, 143);
+}
+
+.consejos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    
+    
+}
+
+
+
+.consejos article {
+    
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+
+.subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.consejos p {
+    font-size: small;
+    text-align: center;
+}
+
+.loguwu {
+    margin-left: 45%;
+    height: 60px;
+    width: 70px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+

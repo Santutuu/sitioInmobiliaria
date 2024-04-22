@@ -1,0 +1,40 @@
+.patas {
+    background-color:  rgb(153, 34, 143, 0.8);
+    height: 250px;
+}
+
+.logos {
+    color: black;
+    display: flex;
+    
+
+}
+
+.icon {
+    margin-left: 20px;
+    
+}
+#lineafoot {
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+.contacto {
+    margin-top: 130px;
+    margin-left: 270px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contacto > p {
+    font-size: medium;
+    margin-right: 300px;
+    margin-top: 8px;
+}
+
+#logo_tel {
+    margin-left: 620px;
+}
