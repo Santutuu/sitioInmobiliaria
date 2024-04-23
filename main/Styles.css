@@ -1,6 +1,3 @@
-
-
-
 body {
     color: rgb(2, 0, 0);
     background-color:whitesmoke; 
@@ -14,8 +11,7 @@ body {
 }
 
 section {
-     margin-bottom: 100px;
-     
+     margin-bottom: 200px;
 }
 
 .contenedor > section {
@@ -24,19 +20,14 @@ section {
 }
 
 
-
 .imagen-recomendada {
     width: 100%;
     height: 250px;
     position:relative;
     border-radius: 2%;
-    
-    
 }
 
 .lugares ::before {
-    
-   
     background-color: rgb(96, 52, 146) 
     opacity: 0;
    
@@ -44,11 +35,7 @@ section {
 
 .imagen-recomendada:hover  {
     filter: brightness(0.7);
-
-
 }
-
-
 
 .oculto {
     position: absolute;
@@ -68,42 +55,32 @@ section {
     
 }
 
-
-
 .oculto span {
     color: yellow;
 }
-
-
 
 .C_lugarX2{
 
     display: flex;
     justify-content: space-between;
      position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 
 .lugarX2 {
     display: flex;
     width: 100%;
-    
 }
 
 
-      
 .lugarX2:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 27px;
 }
     
     
-
-
 .C_lugarX3 {
     display: flex;
     justify-content: space-between;
-  
-    
     position: relative;
     
 }
@@ -116,7 +93,6 @@ section {
 .lugarX3:not(:last-child) {
     margin-right: 20px;
 }
-
 
 
 .lugares h3 {
@@ -137,14 +113,9 @@ section {
 
 
 
-
-
-
-
-
 #subti {
     text-align: center;
-    margin-top: 220px;
+    margin-top: 200px;
     margin-bottom: 70px;
     color: rgb(153, 34, 143);
 }
@@ -154,9 +125,7 @@ section {
     justify-content: space-between;
     margin-left: 400px;
     margin-right: 400px;
-    
-    
-    
+    margin-bottom: 150px;
 }
 
 
@@ -173,10 +142,12 @@ section {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .consejos p {
     font-size: small;
     text-align: center;
 }
+
 
 .loguwu {
     margin-left: 45%;
@@ -185,6 +156,13 @@ section {
     margin-bottom: 10px;
 
 }
+
+
+
+
+
+
+
 
 
 
