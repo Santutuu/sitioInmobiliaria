@@ -12,6 +12,7 @@ body {
 
 section {
      margin-bottom: 200px;
+     
 }
 
 .contenedor > section {
@@ -20,14 +21,19 @@ section {
 }
 
 
+
 .imagen-recomendada {
     width: 100%;
-    height: 250px;
+    height: 270px;
     position:relative;
     border-radius: 2%;
+    
+    
 }
 
 .lugares ::before {
+    
+   
     background-color: rgb(96, 52, 146) 
     opacity: 0;
    
@@ -35,7 +41,11 @@ section {
 
 .imagen-recomendada:hover  {
     filter: brightness(0.7);
+
+
 }
+
+
 
 .oculto {
     position: absolute;
@@ -55,9 +65,13 @@ section {
     
 }
 
+
+
 .oculto span {
     color: yellow;
 }
+
+
 
 .C_lugarX2{
 
@@ -70,17 +84,23 @@ section {
 .lugarX2 {
     display: flex;
     width: 100%;
+    
 }
 
 
+      
 .lugarX2:not(:last-child) {
     margin-right: 27px;
 }
     
     
+
+
 .C_lugarX3 {
     display: flex;
     justify-content: space-between;
+  
+    
     position: relative;
     
 }
@@ -93,6 +113,7 @@ section {
 .lugarX3:not(:last-child) {
     margin-right: 20px;
 }
+
 
 
 .lugares h3 {
@@ -126,6 +147,9 @@ section {
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 150px;
+    
+    
+    
 }
 
 
@@ -142,12 +166,10 @@ section {
     text-align: center;
     margin-bottom: 10px;
 }
-
 .consejos p {
     font-size: small;
     text-align: center;
 }
-
 
 .loguwu {
     margin-left: 45%;
@@ -156,15 +178,3 @@ section {
     margin-bottom: 10px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
