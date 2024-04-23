@@ -1,5 +1,5 @@
 .Buscador {
-    margin-left: 390px;
+    margin-left: 450px;
     background-color: rgb(153, 34, 143);
     display: flex;
     justify-content: space-between;
@@ -8,8 +8,7 @@
     width: 800px;
     height: 60px;
     position: absolute;
-
-   
+    ;
 }
 
 #Ubicacion {
