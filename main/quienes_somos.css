@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    height: 68px;
+    width: 100%;
+    padding-left: 350px;
+    padding-top: 18px;
+    gap: 50px;
+   
+    background-color: rgb(153, 34, 143);
+    
+}
+    
+
+nav > a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+#logo {
+    width: 80px;
+    height: 75px;
+    
+    
+    
+}
+.marca {
+    display: flex;
+    transform: translate(-300px, -20px);
+    background-color: aliceblue;
+    height: 70px;
+}
+.marca p {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+    color: rgb(153, 34, 143);
+    
+    
+}
+.texto {
+    
+    text-align: center;
+    margin-bottom:200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+    font-size: 20px;
+    line-height: 1.5;
+    
+
+}
+span {
+    color: rgb(153, 34, 143);
+}
