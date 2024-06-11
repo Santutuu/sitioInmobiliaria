@@ -1,10 +1,7 @@
-header {
-    width: 100%;
-    height: 450px;
-    background-color: rgb(59, 80, 47);
-    
-    
-    
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 
@@ -15,26 +12,19 @@ nav{
     padding-left: 350px;
     padding-top: 18px;
     gap: 50px;
-    position: fixed;
+   
     background-color: rgb(153, 34, 143);
-    z-index: 20;
+    
 }
+    
 
 nav > a {
     color: aliceblue;
     text-decoration: none;
     font-size: 16px;
-    display: block;
-    margin-top: 9px;
 }
 
 
-  
-nav a:hover {
-    background-color: #555;
-    margin-top: 0;
-    margin-bottom: 30px;
- }
 
 #logo {
     width: 80px;
@@ -58,31 +48,18 @@ nav a:hover {
     
     
 }
-
-#montain {
-    width: 100%;
-    height: 450px;
-    position: relative;
-    margin-left:0px;
-    margin-top: 40px;
-    filter: brightness(0.7);
-  
-   
+.texto {
     
-}
-
-.sponsor {
+    text-align: center;
+    margin-bottom:200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+    font-size: 20px;
+    line-height: 1.5;
     
-    
-    transform: translate(0, -200px);
-    color: white;
-   
-    
-
 
 }
-
-.sponsor > h1 > span {
-    color: rgb(116, 10, 107);
-    -webkit-text-stroke: 0.4px rgb(254, 255, 255); 
+span {
+    color: rgb(153, 34, 143);
 }
