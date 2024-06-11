@@ -26,6 +26,7 @@ nav > a {
     font-size: 16px;
     display: block;
     margin-top: 9px;
+    margin-top: 9px;
 }
 
 
@@ -83,6 +84,8 @@ nav a:hover {
 }
 
 .sponsor > h1 > span {
+    color: rgb(116, 10, 107);
+    -webkit-text-stroke: 0.4px rgb(254, 255, 255); 
     color: rgb(116, 10, 107);
     -webkit-text-stroke: 0.4px rgb(254, 255, 255); 
 }

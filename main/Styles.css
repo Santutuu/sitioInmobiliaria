@@ -79,7 +79,11 @@ section {
     display: flex;
     justify-content: space-between;
      position: relative;
+<<<<<<< HEAD
     margin-bottom: 10px;
+=======
+    margin-bottom: 25px;
+>>>>>>> 2c13808a88a1c2bdae4513d958f768b0bd61391e
 }
 
 .lugarX2 {
@@ -91,7 +95,11 @@ section {
 
       
 .lugarX2:not(:last-child) {
+<<<<<<< HEAD
     margin-right: 10px;
+=======
+    margin-right: 27px;
+>>>>>>> 2c13808a88a1c2bdae4513d958f768b0bd61391e
 }
     
     
@@ -179,9 +187,12 @@ section {
     margin-bottom: 10px;
 
 }
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> 2c13808a88a1c2bdae4513d958f768b0bd61391e
