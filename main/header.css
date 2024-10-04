@@ -1,54 +1,48 @@
 header {
     width: 100%;
-    height: 450px;
-    background-color: rgb(59, 80, 47);
-    
-    
-    
+    height: 68px;
+    background-color: rgb(153, 34, 143);
+    display: flex;
+    justify-content:first baseline;
+    width: 100%;
+    align-items:center;
+    padding: 0 10px;
+    position: fixed;
+    z-index: 20;
 }
 
 
 nav{
-    display: flex;
-    height: 68px;
-    width: 100%;
-    padding-left: 350px;
-    padding-top: 18px;
-    gap: 50px;
-    position: fixed;
-    background-color: rgb(153, 34, 143);
-    z-index: 20;
+    
 }
 
 nav > a {
+    font-family: 'Poppins', sans-serif;
     color: aliceblue;
     text-decoration: none;
-    font-size: 16px;
-    display: block;
-    margin-top: 9px;
-    margin-top: 9px;
+    padding-right: 20px;
+    
 }
 
 
   
 nav a:hover {
-    background-color: #555;
-    margin-top: 0;
-    margin-bottom: 30px;
- }
+    background-color: violet;
+    
+    transition-delay: 0.3s;
+    transform: scale(1.1);
+}
 
 #logo {
     width: 80px;
     height: 75px;
-    
-    
-    
 }
+
 .marca {
     display: flex;
-    transform: translate(-300px, -20px);
     background-color: aliceblue;
-    height: 70px;
+    height: 100%;
+    margin-right: 2vw;
 }
 .marca p {
     font-family:'Times New Roman', Times, serif;
@@ -56,31 +50,15 @@ nav a:hover {
     margin-right: 5px;
     margin-top: 25px;
     color: rgb(153, 34, 143);
-    
-    
 }
 
-#montain {
-    width: 100%;
-    height: 450px;
-    position: relative;
-    margin-left:0px;
-    margin-top: 40px;
-    filter: brightness(0.7);
-  
-   
-    
-}
 
 .sponsor {
-    
-    
-    transform: translate(0, -200px);
+    position: absolute;
     color: white;
-   
-    
-
-
+    top: 40%;
+    text-align: left;
+    font-size: clamp(16px, 2vw, 21px);
 }
 
 .sponsor > h1 > span {
