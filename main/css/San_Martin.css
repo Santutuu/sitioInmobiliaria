@@ -71,6 +71,11 @@ nav > a {
     border-radius: 2%;
    
 }
+
+.propiedades {
+    margin-top: 150px;
+}
+
 .propiedad {
     
     display: flex;

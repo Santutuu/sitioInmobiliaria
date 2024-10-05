@@ -8,7 +8,6 @@ body {
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
 }
 
 section {
@@ -17,19 +16,41 @@ section {
 }
 
 .contenedor > section {
-    margin-left: 320px;
-    margin-right: 320px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.imagen {
+    max-width: 1473px;
+    margin: auto;
 }
 
 #montain {
-    width: 80%;
-    margin: auto;
+  
+    width: 100%;
     height: 450px;
     position: relative;
     filter: brightness(0.7);
     object-fit: cover;
+    display: block;
     margin-top: 68px;
 }
+
+.sponsor {
+    position: absolute;
+    color: white;
+    top: 30%;
+    text-align: left;
+    font-size: clamp(16px, 2vw, 21px);
+}
+
+.sponsor > h1 > span {
+    color: rgb(116, 10, 107);
+    -webkit-text-stroke: 0.7px rgb(254, 255, 255); 
+    color: rgb(116, 10, 107);
+    -webkit-text-stroke: 0.7px rgb(254, 255, 255); 
+}
+
 
 .imagen-recomendada {
     width: 100%;
@@ -139,8 +160,8 @@ section {
 .consejos {
     display: flex;
     justify-content: space-between;
-    margin-left: 400px;
-    margin-right: 400px;
+    width: 60%;
+    margin: auto;
     margin-bottom: 150px;
     
     

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patagonia Inmobiliaria</title>
-    <link rel="stylesheet" type="text/css" href="Styles.css">
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="buscador.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="/main/css/Styles.css">
+    <link rel="stylesheet" type="text/css" href="/main/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/main/css/buscador.css">
+    <link rel="stylesheet" type="text/css" href="/main/css/footer.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,8 +29,8 @@
         </div>
         
         <nav>     
-                <a href="/Inmobiliariahtml/main/quienes_somos.html">Quienes somos?</a>
-                <a href="/Inmobiliariahtml/main/inmobiliaria.html">Inicio</a>
+                <a href="/">Quienes somos?</a>
+                <a href="/">Inicio</a>
                 <a href= "#consejos">Tips</a>
                 <a href= "#patas">Contacto</a>
                 <span></span>
@@ -38,39 +38,41 @@
 
     </header>
 
-    <section class="imagen">
-    
-    <img src="imagenes/micasaog.jpeg" id="montain"/>
+   
+        
+    <article class="imagen">  
+        <img src="imagenes/micasaog.jpeg" id="montain"/>
+        
 
         <div class="sponsor"> 
             <h1><span>The freedom of adventure</span>
             <br></br>With the confort of home</h1>
         </div>
 
-    </section>
+    </article>
 
     <section>
     
-        <div class="buscadorWrapper">
+        
             <article class="Buscador">
 
                 <input type="search" placeholder="¿Adonde vas?" class="Seleccionar" id="Ubicacion"/>
 
-                <div class="personas">
+                <div>
                     <label class="label_font">  </label>
-                    <select>
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
+                    <select class="Seleccionar"  id="personas">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
                     </select>
                     
                     <label class="label_font">  </label>
-                <select  class="select_personas">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                </select>
-            </div>
+                    <select class="Seleccionar"  id="personas">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
 
             
                 <select class="Seleccionar" id="precio">
@@ -80,18 +82,18 @@
                     
                 </select>
 
-                <button id="elegir" name="Submit" type="submit">
+                <button class="Seleccionar" id="elegir" name="Submit" type="submit">
                     <strong><h3>Buscar</h3></strong>
                 </button>
                 
             </article>
-        </div>
+       
         
     </section>
 
 
 
-    <section>
+   
         <div class="contenedor">
             <section>
                 <h2>Lugares recomendados</h2>
@@ -152,7 +154,7 @@
             </section>
                 
         </div>
-    </section>
+   
 
 
 
